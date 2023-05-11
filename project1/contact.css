@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&family=Kanit&family=Poppins&family=Roboto&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto';
+}
+
+.webpage {
+  width: 100%;
+  max-width: 1550px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+/*  contact page */
+
+#contact {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 1550px;
+}
+
+.text-1 {
+  font-family: Poppins;
+  font-size: 2rem;
+}
+
+.text-2 {
+  font-size: 1rem;
+  color: gray;
+}
+
+.contact-card {
+  margin-top: 30px;
+  width: 100%;
+  /* height: 500px; */
+  border: 1px solid black;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .row {
+    flex-direction: column;
+    /* justify-content: flex-start; */
+    align-items: center;
+  }
+
+  .row .col-1,
+  .col-2 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+}
+
+.col-1 {
+  padding: 30px;
+  height: 100%;
+  flex-basis: 35%;
+  background-color: black;
+}
+
+.t-1 {
+  font-family: Poppins;
+  font-size: 1.5rem;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.u-1 {
+  font-family: Poppins;
+  font-size: 1.5rem;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.t-2 {
+  font-family: Poppins;
+  color: white;
+  margin-bottom: 30px;
+  font-size: 1rem;
+}
+
+.t-3 {
+  font-family: Poppins;
+  font-size: 1rem;
+  color: white;
+  margin-top: 30px;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+.icons a {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+}
+
+.col-2 {
+  padding: 30px;
+  height: 100%;
+  flex-basis: 65%;
+  background-color: white;
+}
+
+.u-2 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.group-1,
+.group-2 {
+  width: 100%;
+}
+
+.group-1 label,
+.group-2 label,
+.u-3 label,
+.u-4 label {
+  font-family: Poppins;
+  font-size: 20px;
+}
+
+.group-1 input,
+.group-2 input,
+.u-3 input {
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0px 0px 4px rgb(214, 214, 214);
+}
+
+.u-3 {
+  margin-bottom: 20px;
+}
+
+.u-4 {
+  margin-bottom: 20px;
+}
+textarea {
+  width: 100%;
+  height: 100px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0px 0px 4px rgb(214, 214, 214);
+}
+
+.u-5 {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.u-5 button {
+  padding: 8px 40px;
+  background-color: black;
+  color: white;
+  font-family: Poppins;
+  font-size: 17px;
+  border: none;
+  border-radius: 5px;
+}

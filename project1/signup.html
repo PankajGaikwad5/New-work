@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css"
+        integrity="sha512-ZnR2wlLbSbr8/c9AgLg3jQPAattCUImNsae6NHYnS9KrIwRdcY9DxFotXhNAKIKbAXlRnujIqUWoXXwqyFOeIQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+
+    <div class="webpage">
+        <header>
+            <div class="logo">
+                <img src="imgs/logo.jpg" alt="logo" width="200px">
+            </div>
+            <button class="menu-button absolute right-[2rem] top-[1.5rem] z-20" onclick="btnClick()"><i
+                    class="bi bi-list"></i></button>
+            <button class="menu-button2 hidden absolute right-[2rem] top-[1.5rem] z-20" onclick="btnClick()"><i
+                    class="bi bi-x-lg"></i></button>
+            <nav class="pc-nav">
+                <span>Bootcamps <i class="bi bi-caret-down-fill"></i></span>
+                <span>Courses <i class="bi bi-caret-down-fill"></i></span>
+                <span>Resourses <i class="bi bi-caret-down-fill"></i></span>
+                <span>Pricing <i class="bi bi-caret-down-fill"></i></span>
+                <button class="signup">sign up</button>
+                <button class="free-btn">Join for free</button>
+            </nav>
+            <nav
+                class="mobile-nav hidden absolute w-full h-screen top-0 left-0 z-10 flex-col justify-center items-center bg-black ">
+                <img class="mb-3" src="imgs/logo.jpg" alt="logo" width="200px">
+                <span class="my-1">Bootcamps <i class="bi bi-caret-down-fill"></i></span>
+                <span class="my-1">Courses <i class="bi bi-caret-down-fill"></i></span>
+                <span class="my-1">Resourses <i class="bi bi-caret-down-fill"></i></span>
+                <span class="my-1">Pricing <i class="bi bi-caret-down-fill"></i></span>
+                <button class="signup my-1">sign up</button>
+                <button class="free-btn my-1">Join for free</button>
+            </nav>
+        </header>
+        <section id="signup">
+            <h1 class="signup-text">
+                Create a free account
+            </h1>
+            <p>Hands-on practice modules, learning paths for industry skills, projects, community, and more.</p>
+            <div class="signup-card">
+                <form action="" class="form-card">
+                    <div class="signup-icons">
+                        <a href="#"><i class="bi bi-google"></i></a>
+                        <a href="#"><i class="bi bi-github"></i></a>
+                    </div>
+                    <div class="signup-txt-1">Or use email to signup</div>
+                    <label>Name</label><br>
+                    <input type="text" placeholder="Enter your name"><br>
+
+                    <label>Username</label><br>
+                    <input type="text" placeholder="Only allowed alphanumerical"><br>
+
+                    <label>Email Address</label><br>
+                    <input type="email" placeholder="Enter your email"><br>
+
+                    <label>Password</label><br>
+                    <input type="password" placeholder="Enter new password"><br>
+                    <button>Submit Details</button><br>
+                    <span class="signup-txt-2">Click submit details to proceed and verify your email</span>
+
+                </form>
+            </div>
+        </section>
+        <footer>
+            <div class="f-row">
+                <div class="f-col-1 mb-4 ml-2">
+                    <img src="imgs/logo.jpg" width="200px">
+                    <div class="icons">
+                        <span><i class="bi bi-facebook"></i></span>
+                        <span><i class="bi bi-google"></i></span>
+                        <span><i class="bi bi-twitter"></i></span>
+                        <span><i class="bi bi-github"></i></span>
+                    </div>
+                </div>
+                <div class="my-2 flex flex-col items-center">
+                    <span>Company</span>
+                    <ul class="flex flex-col items-center">
+                        <li>About us</li>
+                        <li>Customer Stories</li>
+                        <li>Careers</li>
+                        <li>Blogs</li>
+                        <li>Newsletters</li>
+                    </ul>
+                </div>
+                <div class="my-2 flex flex-col items-center">
+                    <span>Learn</span>
+                    <ul class="flex flex-col items-center">
+                        <li>Web development</li>
+                        <li>Data Science</li>
+                        <li>Computer Science</li>
+                        <li>Development Tools</li>
+                        <li>Machine Learning</li>
+                    </ul>
+                </div>
+                <div class="my-2 flex flex-col items-center">
+                    <span>Certification</span>
+                    <ul class="flex flex-col items-center">
+                        <li>Web development</li>
+                        <li>Data Science</li>
+                        <li>Computer Science</li>
+                        <li>Development Tools</li>
+                        <li>Machine Learning</li>
+                    </ul>
+                </div>
+                <div class="my-2 flex flex-col items-center">
+                    <span>Resources</span>
+                    <ul class="flex flex-col items-center">
+                        <li>Contact</li>
+                        <li>Help Center</li>
+                        <li>FAQs</li>
+                        <li>Forums</li>
+                        <li>Sitemap</li>
+                    </ul>
+                </div>
+                <div class="my-2 flex flex-col items-center">
+                    <span>Support</span>
+                    <ul class="flex flex-col items-center">
+                        <li>Contact</li>
+                        <li>Help Center</li>
+                        <li>FAQs</li>
+                        <li>Forums</li>
+                        <li>Sitemap</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="f-row-2">
+                <div class="mb-2">Copywrite @2022 Learning Vertos Private limited</div>
+                <div>Terms of Use</div>
+                <div>Privacy Notice</div>
+                <div>Refunds</div>
+                <div>Cookie Notice</div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="./js/index.js"></script>
+</body>
+
+</html>

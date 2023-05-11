@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Vertos</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css"
+        integrity="sha512-ZnR2wlLbSbr8/c9AgLg3jQPAattCUImNsae6NHYnS9KrIwRdcY9DxFotXhNAKIKbAXlRnujIqUWoXXwqyFOeIQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+
+    <div class="webpage">
+        <header>
+            <div class="logo">
+                <img src="imgs/logo.jpg" alt="logo" width="200px">
+            </div>
+            <button class="menu-button absolute right-[2rem] top-[1.5rem] z-20" onclick="btnClick()"><i
+                    class="bi bi-list"></i></button>
+            <button class="menu-button2 hidden absolute right-[2rem] top-[1.5rem] z-20" onclick="btnClick()"><i
+                    class="bi bi-x-lg"></i></button>
+            <nav class="pc-nav">
+                <span>Bootcamps <i class="bi bi-caret-down-fill"></i></span>
+                <span>Courses <i class="bi bi-caret-down-fill"></i></span>
+                <span>Resourses <i class="bi bi-caret-down-fill"></i></span>
+                <span>Pricing <i class="bi bi-caret-down-fill"></i></span>
+                <button class="signup">sign up</button>
+                <button class="free-btn">Join for free</button>
+            </nav>
+            <nav
+                class="mobile-nav hidden absolute w-full h-screen top-0 left-[-100%] z-10 flex-col justify-center items-center bg-black ">
+                <img class="mb-3" src="imgs/logo.jpg" alt="logo" width="200px">
+                <span class="my-1">Bootcamps <i class="bi bi-caret-down-fill"></i></span>
+                <span class="my-1">Courses <i class="bi bi-caret-down-fill"></i></span>
+                <span class="my-1">Resourses <i class="bi bi-caret-down-fill"></i></span>
+                <span class="my-1">Pricing <i class="bi bi-caret-down-fill"></i></span>
+                <button class="signup my-1">sign up</button>
+                <button class="free-btn my-1">Join for free</button>
+            </nav>
+        </header>
+        <section id="home">
+            <div class="row">
+                <div class="col-1">
+                    <h1>Let your Dream Career take off</h1>
+                    <p>Take the leap and become job-ready in the fields of Product, Business, Content & Design</p>
+                    <button class="get-btn">get started <i class="bi bi-caret-right-fill"></i></button>
+                </div>
+                <div class="col-2">
+                    <img src="imgs/home -img.png" alt="banner-img">
+                </div>
+            </div>
+        </section>
+        <section id="page-1">
+            <h1 class="main-text">Things you can do in blue learn</h1>
+            <div class="card-container">
+                <div class="card">
+                    <div class="page-1-row-1">
+                        <div class="page-1-col-1">
+                            <h1>Network with smart people</h1>
+                            <p class="text-1">Great things happen when great people come together. It’s magic!</p>
+                            <p class="text-2">Connect with a diverse community of creative minds to network, share
+                                ideas, and gain valuable insights into your craft.</p>
+                        </div>
+                        <div class="page-1-col-2">
+                            <img src="imgs/c1.webp" alt="p-1" width="300px">
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="page-1-row-1">
+                        <div class="page-1-col-1">
+                            <h1>Network with smart people</h1>
+                            <p class="text-1">Great things happen when great people come together. It’s magic!</p>
+                            <p class="text-2">Connect with a diverse community of creative minds to network, share
+                                ideas, and gain valuable insights into your craft.</p>
+                        </div>
+                        <div class="page-1-col-2">
+                            <img src="imgs/c2.webp" alt="p-1" width="300px">
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="page-1-row-1">
+                        <div class="page-1-col-1">
+                            <h1>Network with smart people</h1>
+                            <p class="text-1">Great things happen when great people come together. It’s magic!</p>
+                            <p class="text-2">Connect with a diverse community of creative minds to network, share
+                                ideas, and gain valuable insights into your craft.</p>
+                        </div>
+                        <div class="page-1-col-2">
+                            <img src="imgs/c3.webp" alt="p-1" width="300px">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section id="page-2">
+            <h1 class="page-2-main-text">Don't take our word for it, see what the community is saying</h1>
+            <div class="grid">
+                <div class="item item-1">
+                    <div class="box">
+                        <img src="imgs/p1.webp">
+                        <p>"At bluelearn I learnt how to be consistent and how to interact with others. I also learnt
+                            various things related to freelancing."</p>
+                        <span class="author">Sneha Biswas</span>
+                    </div>
+                </div>
+                <div class="item item-2">
+                    <div class="box">
+
+                        <img src="imgs/p1.webp">
+                        <p>"At bluelearn I learnt how to be consistent and how to interact with others. I also learnt
+                            various things related to freelancing."</p>
+                        <span class="author">Sneha Biswas</span>
+
+                    </div>
+                </div>
+                <div class="item item-3">
+                    <div class="box">
+                        <img src="imgs/p1.webp">
+                        <p>"At bluelearn I learnt how to be consistent and how to interact with others. I also learnt
+                            various things related to freelancing."</p>
+                        <span class="author">Sneha Biswas</span>
+                    </div>
+                </div>
+                <div class="item item-4">
+                    <div class="box">
+                        <img src="imgs/p1.webp">
+                        <p>"At bluelearn I learnt how to be consistent and how to interact with others. I also learnt
+                            various things related to freelancing."</p>
+                        <span class="author">Sneha Biswas</span>
+                    </div>
+                </div>
+                <div class="item item-5">
+                    <div class="box">
+                        <img src="imgs/p1.webp">
+                        <p>"At bluelearn I learnt how to be consistent and how to interact with others. I also learnt
+                            various things related to freelancing."</p>
+                        <span class="author">Sneha Biswas</span>
+                    </div>
+                </div>
+                <div class="item item-6">
+                    <div class="box">
+                        <img src="imgs/p1.webp">
+                        <p>"At bluelearn I learnt how to be consistent and how to interact with others. I also learnt
+                            various things related to freelancing."</p>
+                        <span class="author">Sneha Biswas</span>
+                    </div>
+                </div>
+                <div class="item item-7">
+                    <div class="box">
+                        <img src="imgs/p1.webp">
+                        <p>"At bluelearn I learnt how to be consistent and how to interact with others. I also learnt
+                            various things related to freelancing."</p>
+                        <span class="author">Sneha Biswas</span>
+                    </div>
+                </div>
+                <div class="item item-8">
+                    <div class="box">
+                        <img src="imgs/p1.webp">
+                        <p>"At bluelearn I learnt how to be consistent and how to interact with others. I also learnt
+                            various things related to freelancing."</p>
+                        <span class="author">Sneha Biswas</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="box">
+                        <img src="imgs/p1.webp">
+                        <p>"At bluelearn I learnt how to be consistent and how to interact with others. I also learnt
+                            various things related to freelancing."</p>
+                        <span class="author">Sneha Biswas</span>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </section>
+        <section id="page-3">
+            <h1 class="page-3-main-text">Our placement track record</h1>
+            <div class="page-3-flex">
+                <div class="pbox-1">
+                    <div class="pbox pb-1"></div>
+                    <span>15+
+                        <br>
+                        <p>job roles catered to</p>
+                    </span>
+
+                </div>
+                <div class="pbox-2">
+                    <div class="pbox pb-2"></div>
+                    <span>15+
+                        <br>
+                        <p>job roles catered to</p>
+                    </span>
+                </div>
+                <div class="pbox-3">
+                    <div class="pbox pb-3"></div>
+                    <span>15+
+                        <br>
+                        <p>job roles catered to</p>
+                    </span>
+                </div>
+            </div>
+        </section>
+        <section id="page-4">
+            <div class="page-4-row">
+                <div class="page-4-col-1">
+                    <h1 class="page-4-text">What Will You Discover?</h1><br>
+                    <p>Explore new skills, deepen existing passions, and get lost in creativity. What you find just
+                        might surprise and inspire you.</p>
+                    <button class="page-4-btn">Browse Classes</button>
+                </div>
+                <div class="page-4-col-2">
+                    <img src="imgs/p4.jpg" alt="">
+                </div>
+            </div>
+        </section>
+        <section id="page-5">
+            <div class="page-5-row">
+                <div class="page-5-col-1">
+                    <div class="page-5-img"><img src="imgs/p51.svg"></div>
+                    <h1>Daily live classes</h1>
+                    <p>Chat with educators, ask questions, answer live polls, and get your doubts cleared - all while
+                        the class is going on</p>
+                </div>
+                <div class="page-5-col-2">
+                    <div class="page-5-img"><img src="imgs/p52.svg"></div>
+                    <h1>Daily live classes</h1>
+                    <p>Chat with educators, ask questions, answer live polls, and get your doubts cleared - all while
+                        the class is going on</p>
+                </div>
+                <div class="page-5-col-3">
+                    <div class="page-5-img"><img src="imgs/p53.svg"></div>
+                    <h1>Daily live classes</h1>
+                    <p>Chat with educators, ask questions, answer live polls, and get your doubts cleared - all while
+                        the class is going on</p>
+                </div>
+            </div>
+        </section>
+        <section id="page-6">
+            <div class="page-6-flex">
+                <h1 class="text">Don't Miss The Updates!!</h1>
+                <button>Subscribe</button>
+            </div>
+            <div class="carsuol">
+                <div class="c-card">
+                    <div class="img">
+                        <img src="imgs/card1.jpg">
+                    </div>
+                    <p class="p1">March 4, 2022</p>
+                    <p class="p2">Fullstack ahead for the R&D</p>
+                    <button class="btn">Read more</button>
+                </div>
+                <div class="c-card">
+                    <div class="img">
+                        <img src="imgs/card2.jpg">
+                    </div>
+                    <p class="p1">March 4, 2022</p>
+                    <p class="p2">Fullstack ahead for the R&D</p>
+                    <button class="btn">Read more</button>
+                </div>
+                <div class="c-card">
+                    <div class="img">
+                        <img src="imgs/card3.jpg">
+                    </div>
+                    <p class="p1">March 4, 2022</p>
+                    <p class="p2">Fullstack ahead for the R&D</p>
+                    <button class="btn">Read more</button>
+                </div>
+                <div class="c-card">
+                    <div class="img">
+                        <img src="imgs/card1.jpg">
+                    </div>
+                    <p class="p1">March 4, 2022</p>
+                    <p class="p2">Fullstack ahead for the R&D</p>
+                    <button class="btn">Read more</button>
+                </div>
+                <div class="c-card">
+                    <div class="img">
+                        <img src="imgs/card2.jpg">
+                    </div>
+                    <p class="p1">March 4, 2022</p>
+                    <p class="p2">Fullstack ahead for the R&D</p>
+                    <button class="btn">Read more</button>
+                </div>
+            </div>
+        </section>
+        <section id="page-7">
+            <div class="page-7-row">
+                <div class="page-7-col-1">
+                    <h1>Stay ahead of competitors with faster, superior, and more affordable research Join our community
+                        today.</h1>
+                </div>
+                <div class="page-7-col-2">
+                    <div class="form">
+                        <form>
+                            <label>Name</label><br>
+                            <input type="text" placeholder="Enter your name"><br>
+
+                            <label>Username</label><br>
+                            <input type="text" placeholder="only allowed alphanumerical"><br>
+
+                            <label>Mobile Number</label><br>
+                            <input type="number" placeholder="Enter your Number"><br>
+
+                            <label>Email</label><br>
+                            <input type="email" placeholder="Enter your Email"><br>
+
+                            <label>Password</label><br>
+                            <input type="password" placeholder="Enter your password"><br>
+                            <button>Let's go</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="f-row">
+                <div class="f-col-1 mb-4 ml-2">
+                    <img src="imgs/logo.jpg" width="200px">
+                    <div class="icons">
+                        <span><i class="bi bi-facebook"></i></span>
+                        <span><i class="bi bi-google"></i></span>
+                        <span><i class="bi bi-twitter"></i></span>
+                        <span><i class="bi bi-github"></i></span>
+                    </div>
+                </div>
+                <div class="my-2 flex flex-col items-center">
+                    <span>Company</span>
+                    <ul class="flex flex-col items-center">
+                        <li>About us</li>
+                        <li>Customer Stories</li>
+                        <li>Careers</li>
+                        <li>Blogs</li>
+                        <li>Newsletters</li>
+                    </ul>
+                </div>
+                <div class="my-2 flex flex-col items-center">
+                    <span>Learn</span>
+                    <ul class="flex flex-col items-center">
+                        <li>Web development</li>
+                        <li>Data Science</li>
+                        <li>Computer Science</li>
+                        <li>Development Tools</li>
+                        <li>Machine Learning</li>
+                    </ul>
+                </div>
+                <div class="my-2 flex flex-col items-center">
+                    <span>Certification</span>
+                    <ul class="flex flex-col items-center">
+                        <li>Web development</li>
+                        <li>Data Science</li>
+                        <li>Computer Science</li>
+                        <li>Development Tools</li>
+                        <li>Machine Learning</li>
+                    </ul>
+                </div>
+                <div class="my-2 flex flex-col items-center">
+                    <span>Resources</span>
+                    <ul class="flex flex-col items-center">
+                        <li>Contact</li>
+                        <li>Help Center</li>
+                        <li>FAQs</li>
+                        <li>Forums</li>
+                        <li>Sitemap</li>
+                    </ul>
+                </div>
+                <div class="my-2 flex flex-col items-center">
+                    <span>Support</span>
+                    <ul class="flex flex-col items-center">
+                        <li>Contact</li>
+                        <li>Help Center</li>
+                        <li>FAQs</li>
+                        <li>Forums</li>
+                        <li>Sitemap</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="f-row-2">
+                <div class="mb-2">Copywrite @2022 Learning Vertos Private limited</div>
+                <div>Terms of Use</div>
+                <div>Privacy Notice</div>
+                <div>Refunds</div>
+                <div>Cookie Notice</div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
